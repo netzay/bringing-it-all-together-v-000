@@ -7,9 +7,8 @@ class Dog
 #     @id = id
 #   end
   
-# end
-# def initialize(args)
-#     args.each do |k,v|
-#       instance_variable_set("@#{k}",v) unless v.nil?
-#     end
+ def initialize(dogs)
+     dogs.each do |k,v|
+       instance_variable_set("@#{k}",v) unless v.nil?
+     end
 end
