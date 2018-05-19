@@ -28,6 +28,7 @@ class Dog
   
   def save 
     dog = Dog.new(dogs)
+    dog.save
     dog
   end
    
