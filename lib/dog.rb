@@ -25,5 +25,10 @@ class Dog
     
     DB[:conn].execute(sql)
   end
+  
+  def save 
+    dog = Dog.new(dogs)
+    dog
+  end
    
 end
